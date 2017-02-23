@@ -1,0 +1,23 @@
+As discussed here: https://github.com/openai/gym/pull/345
+
+The average result with optimal play is a score of 8.42
+
+As of the last run, every thousand training games we check 100 test games and report the average score. The score can be sent very negative when the computer decides to keep making an illegal pickup or dropoff, which it begins to do as it learns when to make these moves.
+
+1000:  -200
+2000:  -200
+3000:  -200
+4000:  -178.89
+5000:  -174.78
+6000:  -187.35
+7000:  -326.0
+8000:  -93.54
+9000:  -106.29
+10000: -68.43
+11000: -120.44
+12000: -51.96
+13000:  6.13
+14000:  5.64
+15000:  8.28
+16000:  8.11
+17000:  8.41
